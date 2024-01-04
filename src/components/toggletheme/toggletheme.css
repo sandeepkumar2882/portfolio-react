@@ -1,0 +1,35 @@
+.theme-btn {
+    top: 5%;
+    right: 3%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.1s ease-in-out;
+    z-index: 1;
+}
+
+.theme-btn:active {
+    transform: translateY(-3px);
+    color: var(--color-bg-variant);
+}
+
+.theme-btn i {
+    font-size: 1.4rem;
+    color: var(--color-bg-variant);
+    pointer-events: none;
+}
+
+body.light-mode .theme-btn i {
+    color: var(--color-bg-variant);
+}
+
+body.light-mode .theme-btn {
+    background-color: var(--color-primary);
+}
