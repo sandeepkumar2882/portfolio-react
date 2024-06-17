@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import CV from '../../assets/Resume(Sandeep Kumar).PDF';
+import CV from '../../assets/CV-Sandeep Kumar.PDF';
 import './header.css';
 
 const Header = () => {
